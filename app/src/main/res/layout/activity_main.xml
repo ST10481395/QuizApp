@@ -1,0 +1,98 @@
+
+<!-- Root container for the entire screen -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Container to apply animations or grouping around question + options -->
+    <LinearLayout
+        android:id="@+id/questionContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Question text -->
+
+        <!-- Option buttons -->
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="4dp"
+            android:text="Quiz Questions"
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/option1Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Option 1"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/option2Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Option 2"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/option3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Option 3"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/option4Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Option 4"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/option5Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Option 5"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <!-- Restart button shown at the end of the quiz -->
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/pink"
+        android:enabled="false"
+        android:padding="10dp"
+        android:text="Restart Quiz"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
