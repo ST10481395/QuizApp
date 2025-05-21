@@ -58,7 +58,7 @@ This Quiz App demonstrates fundamental Android development skills including UI d
 
 ![image](https://github.com/user-attachments/assets/5f4ffdf8-422e-4065-9747-b0bd1c5e49d8)
 
-![image](https://github.com/user-attachments/assets/e6428664-894b-4f6b-900e-33b179614acd
+![image](https://github.com/user-attachments/assets/e6428664-894b-4f6b-900e-33b179614acd)
 
 ![image](https://github.com/user-attachments/assets/70725d21-b620-47a4-b5ae-69bd62a56422)
 
